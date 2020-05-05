@@ -18,7 +18,7 @@ class Domain:
 			return 1
 
 def calculateNum(str):
-  num = 0
+        num = 0
 	for i in str:
 		if i.isdigit():
 			num += 1
